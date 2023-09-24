@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "picture": "image1.jpg",
+      "title": "Product 1",
+      "category": "Health",
+      "category_bg_color": "#FF5733",
+      "card_bg_color": "#EFEFEF",
+      "text_and_button_bg_color": "#333333",
+      "description": "A high-quality health product.",
+      "price": "$19.99"
+    },
+    {
+      "id": 2,
+      "picture": "image2.jpg",
+      "title": "Product 2",
+      "category": "Education",
+      "category_bg_color": "#FFC300",
+      "card_bg_color": "#F5F5F5",
+      "text_and_button_bg_color": "#4CAF50",
+      "description": "Educational tool for students.",
+      "price": "$29.99"
+    },
+    {
+      "id": 3,
+      "picture": "image3.jpg",
+      "title": "Product 3",
+      "category": "Food",
+      "category_bg_color": "#3498DB",
+      "card_bg_color": "#F0E68C",
+      "text_and_button_bg_color": "#333333",
+      "description": "Delicious gourmet food item.",
+      "price": "$9.99"
+    },
+    {
+      "id": 4,
+      "picture": "image4.jpg",
+      "title": "Product 4",
+      "category": "Clothing",
+      "category_bg_color": "#3498DB",
+      "card_bg_color": "#F5F5F5",
+      "text_and_button_bg_color": "#4CAF50",
+      "description": "Fashionable clothing item.",
+      "price": "$49.99"
+    },
+    {
+      "id": 5,
+      "picture": "image5.jpg",
+      "title": "Product 5",
+      "category": "Health",
+      "category_bg_color": "#FF5733",
+      "card_bg_color": "#EFEFEF",
+      "text_and_button_bg_color": "#333333",
+      "description": "Wellness and fitness product.",
+      "price": "$39.99"
+    },
+    {
+      "id": 6,
+      "picture": "image6.jpg",
+      "title": "Product 6",
+      "category": "Education",
+      "category_bg_color": "#FFC300",
+      "card_bg_color": "#F5F5F5",
+      "text_and_button_bg_color": "#4CAF50",
+      "description": "Educational book for kids.",
+      "price": "$14.99"
+    },
+    {
+      "id": 7,
+      "picture": "image7.jpg",
+      "title": "Product 7",
+      "category": "Food",
+      "category_bg_color": "#3498DB",
+      "card_bg_color": "#F0E68C",
+      "text_and_button_bg_color": "#333333",
+      "description": "Healthy and tasty snack.",
+      "price": "$5.99"
+    },
+    {
+      "id": 8,
+      "picture": "image8.jpg",
+      "title": "Product 8",
+      "category": "Clothing",
+      "category_bg_color": "#3498DB",
+      "card_bg_color": "#F5F5F5",
+      "text_and_button_bg_color": "#4CAF50",
+      "description": "Casual clothing item.",
+      "price": "$34.99"
+    },
+    {
+      "id": 9,
+      "picture": "image9.jpg",
+      "title": "Product 9",
+      "category": "Health",
+      "category_bg_color": "#FF5733",
+      "card_bg_color": "#EFEFEF",
+      "text_and_button_bg_color": "#333333",
+      "description": "Vitamin and supplement pack.",
+      "price": "$24.99"
+    },
+    {
+      "id": 10,
+      "picture": "image10.jpg",
+      "title": "Product 10",
+      "category": "Education",
+      "category_bg_color": "#FFC300",
+      "card_bg_color": "#F5F5F5",
+      "text_and_button_bg_color": "#4CAF50",
+      "description": "Learning toy for toddlers.",
+      "price": "$19.99"
+    },
+    {
+      "id": 11,
+      "picture": "image11.jpg",
+      "title": "Product 11",
+      "category": "Food",
+      "category_bg_color": "#3498DB",
+      "card_bg_color": "#F0E68C",
+      "text_and_button_bg_color": "#333333",
+      "description": "Organic food product.",
+      "price": "$12.99"
+    },
+    {
+      "id": 12,
+      "picture": "image12.jpg",
+      "title": "Product 12",
+      "category": "Clothing",
+      "category_bg_color": "#3498DB",
+      "card_bg_color": "#F5F5F5",
+      "text_and_button_bg_color": "#4CAF50",
+      "description": "Formal attire for special occasions.",
+      "price": "$79.99"
+    }
+]
