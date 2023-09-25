@@ -8,7 +8,7 @@ const Banner = () => {
                     <input
                         type="text"
                         placeholder="Search here..."
-                        className="w-64 lg:w-80 p-2 border rounded-l-lg outline-none"
+                        className="w-64 lg:w-80 p-2 border-solid border-[#FF444A] border rounded-l-lg outline-none"
                     />
                     <button
                         type="button"
