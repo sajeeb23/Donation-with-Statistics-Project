@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import Description from "../components/Card/Description";
 
 const CardDescription = () => {
 
-        const [cardDescription, setCardDescription] = useState()
+        const [cardDescription, setCardDescription] = useState(null)
 
         const {id} = useParams()
         
-        const cards = useLoaderData()
+        const cards = useLoaderData();
         
 
         useEffect(()=>{
@@ -18,7 +19,7 @@ const CardDescription = () => {
          
         return (
         <div>
-            <h1></h1>
+            <Description cardDescription={cardDescription}></Description>
         </div>
     );
 };
