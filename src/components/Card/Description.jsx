@@ -1,8 +1,23 @@
+import toast, { Toaster } from 'react-hot-toast';
 const Description = ({ cardDescription }) => {
     const { id, title, description_picture, price} = cardDescription || {};
 
     const handleDonate = () =>{
-       
+        
+        
+        const donationItems = JSON.parse(localStorage.getItem('donation')) || [];
+
+        if(!donationItems){
+            donationItems.push(cardDescription);
+            localStorage.setItem('donation', JSON.stringify(donationItems));
+            toast.success('Donated Successfully!');
+        }
+        else{
+            donationItems.push(cardDescription);
+            localStorage.setItem('donation', JSON.stringify(donationItems));
+            toast.success('Donated Successfully!');
+            
+        }
     }
 
     return (
@@ -14,8 +29,9 @@ const Description = ({ cardDescription }) => {
                 </div>
             </div>
             <h1 className="text-4xl font-bold">{title}</h1>
-
+            <Toaster></Toaster>
         </div>
+        
     );
 };
 
