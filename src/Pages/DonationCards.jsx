@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DonationCards = ({ card }) => {
-    const { title, category, category_bg_color, text_and_button_bg_color } = card;
+    const { id, title, category, category_bg_color, text_and_button_bg_color } = card;
 
     return (
         <div>
@@ -15,15 +16,19 @@ const DonationCards = ({ card }) => {
                 </div>
                 <div className="p-6">
                     <p>
-                    <span className="bg-red-500 py-1 px-2 rounded" style={{ background: category_bg_color, color: text_and_button_bg_color }}>
-                                    {category}
-                                </span>
+                        <span className="bg-red-500 py-1 px-2 rounded" style={{ background: category_bg_color, color: text_and_button_bg_color }}>
+                            {category}
+                        </span>
                     </p>
                     <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-black antialiased">
                         {title}
                     </h4>
                     <p>${card.price}</p>
-                    <button className={`btn text-white`} style={{background: text_and_button_bg_color}} >View Details</button>
+                    <Link to={`/card/${id}`}>
+                        <button className={`btn text-white`} style={{ background: text_and_button_bg_color }}>
+                            View Details
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
