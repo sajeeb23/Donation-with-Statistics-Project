@@ -1,8 +1,5 @@
-# React + Vite
+- Search and Filter by Category: Users can easily find the causes they care about by searching for specific categories such as "Health," "Education," "Clothing," or "Food." This feature allows users to narrow down their choices and support the causes that resonate with them.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Detailed Product Descriptions: Each donation item includes a detailed description, providing users with information about the impact of their contribution. These descriptions help users understand how their donation will make a difference, fostering transparency and trust in your platform.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Pie Chart: Each donation item includes an interactive pie chart that visually represents how the contributed funds will be allocated across different aspects of the cause. Users can hover over the chart segments to see the percentage breakdown of their donation, such as how much goes to direct aid, administrative costs, and other relevant categories. This visual representation helps donors understand the distribution of their contributions, promoting transparency and accountability in your platform.
