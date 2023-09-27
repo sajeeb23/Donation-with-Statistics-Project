@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100 ">
                 <div className="flex-1">
-                    <NavLink to="/"><img src="\src\assets\Logo.png"  className="btn btn-ghost" alt="" /></NavLink>
+                    <NavLink to="/"><img src="\assets\Logo.png"  className="btn btn-ghost" alt="" /></NavLink>
                 </div>
                 <div className="flex-none gap-2 font-medium sm:gap-10 lg:gap-12 text-lg">
                     <NavLink
